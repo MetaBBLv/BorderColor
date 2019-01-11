@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0750E46921E82891006B1ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750E46821E82891006B1ACC /* AppDelegate.m */; };
+		0750E46C21E82891006B1ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750E46B21E82891006B1ACC /* ViewController.m */; };
+		0750E46F21E82891006B1ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0750E46D21E82891006B1ACC /* Main.storyboard */; };
+		0750E47121E8289B006B1ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0750E47021E8289B006B1ACC /* Assets.xcassets */; };
+		0750E47421E8289B006B1ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0750E47221E8289B006B1ACC /* LaunchScreen.storyboard */; };
+		0750E47721E8289B006B1ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750E47621E8289B006B1ACC /* main.m */; };
+		0750E48021E82933006B1ACC /* BorderColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750E47E21E82933006B1ACC /* BorderColorViewController.m */; };
+		0750E48121E82933006B1ACC /* BorderColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750E47F21E82933006B1ACC /* BorderColorViewController.xib */; };
+		0750E48721E82C41006B1ACC /* CALayer+AddBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750E48621E82C41006B1ACC /* CALayer+AddBorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0750E46421E82891006B1ACC /* BorderColorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BorderColorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0750E46721E82891006B1ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0750E46821E82891006B1ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0750E46A21E82891006B1ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0750E46B21E82891006B1ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0750E46E21E82891006B1ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0750E47021E8289B006B1ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0750E47321E8289B006B1ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0750E47521E8289B006B1ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0750E47621E8289B006B1ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0750E47D21E82933006B1ACC /* BorderColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorderColorViewController.h; sourceTree = "<group>"; };
+		0750E47E21E82933006B1ACC /* BorderColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderColorViewController.m; sourceTree = "<group>"; };
+		0750E47F21E82933006B1ACC /* BorderColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BorderColorViewController.xib; sourceTree = "<group>"; };
+		0750E48521E82C41006B1ACC /* CALayer+AddBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+AddBorder.h"; sourceTree = "<group>"; };
+		0750E48621E82C41006B1ACC /* CALayer+AddBorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+AddBorder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0750E46121E82891006B1ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0750E45B21E82890006B1ACC = {
+			isa = PBXGroup;
+			children = (
+				0750E46621E82891006B1ACC /* BorderColorTest */,
+				0750E46521E82891006B1ACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0750E46521E82891006B1ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0750E46421E82891006B1ACC /* BorderColorTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0750E46621E82891006B1ACC /* BorderColorTest */ = {
+			isa = PBXGroup;
+			children = (
+				0750E46721E82891006B1ACC /* AppDelegate.h */,
+				0750E46821E82891006B1ACC /* AppDelegate.m */,
+				0750E46A21E82891006B1ACC /* ViewController.h */,
+				0750E46B21E82891006B1ACC /* ViewController.m */,
+				0750E47D21E82933006B1ACC /* BorderColorViewController.h */,
+				0750E47E21E82933006B1ACC /* BorderColorViewController.m */,
+				0750E48521E82C41006B1ACC /* CALayer+AddBorder.h */,
+				0750E48621E82C41006B1ACC /* CALayer+AddBorder.m */,
+				0750E47F21E82933006B1ACC /* BorderColorViewController.xib */,
+				0750E46D21E82891006B1ACC /* Main.storyboard */,
+				0750E47021E8289B006B1ACC /* Assets.xcassets */,
+				0750E47221E8289B006B1ACC /* LaunchScreen.storyboard */,
+				0750E47521E8289B006B1ACC /* Info.plist */,
+				0750E47621E8289B006B1ACC /* main.m */,
+			);
+			path = BorderColorTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0750E46321E82891006B1ACC /* BorderColorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0750E47A21E8289B006B1ACC /* Build configuration list for PBXNativeTarget "BorderColorTest" */;
+			buildPhases = (
+				0750E46021E82891006B1ACC /* Sources */,
+				0750E46121E82891006B1ACC /* Frameworks */,
+				0750E46221E82891006B1ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BorderColorTest;
+			productName = BorderColorTest;
+			productReference = 0750E46421E82891006B1ACC /* BorderColorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0750E45C21E82891006B1ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "周鹏飞";
+				TargetAttributes = {
+					0750E46321E82891006B1ACC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0750E45F21E82891006B1ACC /* Build configuration list for PBXProject "BorderColorTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0750E45B21E82890006B1ACC;
+			productRefGroup = 0750E46521E82891006B1ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0750E46321E82891006B1ACC /* BorderColorTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0750E46221E82891006B1ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0750E47421E8289B006B1ACC /* LaunchScreen.storyboard in Resources */,
+				0750E47121E8289B006B1ACC /* Assets.xcassets in Resources */,
+				0750E48121E82933006B1ACC /* BorderColorViewController.xib in Resources */,
+				0750E46F21E82891006B1ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0750E46021E82891006B1ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0750E46C21E82891006B1ACC /* ViewController.m in Sources */,
+				0750E47721E8289B006B1ACC /* main.m in Sources */,
+				0750E48021E82933006B1ACC /* BorderColorViewController.m in Sources */,
+				0750E46921E82891006B1ACC /* AppDelegate.m in Sources */,
+				0750E48721E82C41006B1ACC /* CALayer+AddBorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0750E46D21E82891006B1ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0750E46E21E82891006B1ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0750E47221E8289B006B1ACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0750E47321E8289B006B1ACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0750E47821E8289B006B1ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0750E47921E8289B006B1ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0750E47B21E8289B006B1ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R365Y9G46;
+				INFOPLIST_FILE = BorderColorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PangFangPangDi.BorderColorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0750E47C21E8289B006B1ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3R365Y9G46;
+				INFOPLIST_FILE = BorderColorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PangFangPangDi.BorderColorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0750E45F21E82891006B1ACC /* Build configuration list for PBXProject "BorderColorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0750E47821E8289B006B1ACC /* Debug */,
+				0750E47921E8289B006B1ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0750E47A21E8289B006B1ACC /* Build configuration list for PBXNativeTarget "BorderColorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0750E47B21E8289B006B1ACC /* Debug */,
+				0750E47C21E8289B006B1ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0750E45C21E82891006B1ACC /* Project object */;
+}
